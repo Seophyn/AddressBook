@@ -1,0 +1,28 @@
+Nov 26, 2016 1:44:44 PM AdressBookInterface menu
+INFO: Starting program
+Nov 26, 2016 1:44:47 PM AdressBookInterface menu
+FINE: Userinput: add
+Nov 26, 2016 1:44:49 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:44:54 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:44:59 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:45:04 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:45:09 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:45:14 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:45:19 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:45:21 PM AdressBookInterface menu
+FINE: Userinput: list
+Nov 26, 2016 1:45:24 PM FileManager writeFile
+INFO: Saving to file.
+Nov 26, 2016 1:45:24 PM AdressBookInterface menu
+FINE: Userinput: quit
+Nov 26, 2016 1:45:24 PM AdressBookInterface menu
+INFO: Exiting Program
+Nov 26, 2016 1:45:24 PM FileManager writeFile
+INFO: Saving to file.
