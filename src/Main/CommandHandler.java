@@ -22,7 +22,7 @@ public class CommandHandler {
         searchTerm = searchTerm.toLowerCase();
         for (int i = 0; i < register.getRegister().size(); i++) {
             if (register.getRegister().get(i).getFirstName().toLowerCase().startsWith(searchTerm) || register.getRegister().get(i).getSurName().toLowerCase().startsWith(searchTerm)) {
-                System.out.println(register.getRegister().get(i).toString());
+                System.out.println(register.getRegister().get(i).printContact());
             } else {
                 System.out.println("No contacts found.");
             }
@@ -38,7 +38,7 @@ public class CommandHandler {
 
         for (Contact contact :
                 tempArrayList) {
-            System.out.println(contact.toString());
+            System.out.println(contact.printContact());
 
         }
     }
@@ -73,7 +73,7 @@ public class CommandHandler {
     }
 
     public void readRegister() {
-        register = filemanager.readFile();
+        register.setRegister(filemanager.readFile());
     }
 
     public Register getRegister() {

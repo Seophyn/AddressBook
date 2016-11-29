@@ -36,6 +36,10 @@ public class Contact implements Serializable, Comparable<Contact>{
         return String.format("ID: %s\nFirst Name: %s\nSurname: %s\nEmail: %s", this.getID(), this.getFirstName(), this.getSurName(), this.getMail() + "\n");
     }
 
+    public String printContact(){
+        return String.format("ID: %s\nFirst Name: %s\nSurname: %s\nEmail: %s", this.getID(), this.getFirstName(), this.getSurName(), this.getMail() + "\n");
+    }
+
     @Override
     public int compareTo(Contact contact) {
         return this.getFirstName().compareToIgnoreCase((contact.getFirstName()));

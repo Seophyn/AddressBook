@@ -8,7 +8,7 @@ public class FileManager {
     private File file = new File("register");
     private Logger logger = Logger.getLogger(FileManager.class.getName());
 
-    public Register readFile() {
+    public ArrayList<Contact> readFile() {
 
 
         Register register = null;
@@ -21,8 +21,8 @@ public class FileManager {
                 logger.severe("Error when trying to read from file.");
                 e.printStackTrace();
             }
-            return register;
-        } else return new Register();
+            return register.getRegister();
+        } else return new Register().getRegister();
     }
 
     public synchronized void writeFile(Register register) {

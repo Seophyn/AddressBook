@@ -9,3 +9,97 @@
 2016-11-29 13:20:37 FINE   Main.AddressBookInterface menu - User Input: quit
 2016-11-29 13:20:37 INFO   Main.CommandHandler exitProgram - Exiting program
 2016-11-29 13:20:37 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:03 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:41:03 SEVERE Main.FileManager readFile - Error when trying to read from file.
+2016-11-29 13:41:08 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:13 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:18 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:23 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:28 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:33 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:38 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:43 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:48 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:53 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:41:58 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:42:07 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:42:10 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 13:42:10 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 13:42:10 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:42:21 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:42:26 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:42:28 FINE   Main.AddressBookInterface menu - User Input: add
+2016-11-29 13:42:30 FINE   Main.AddressBookInterface menu - User Input: list
+2016-11-29 13:42:31 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:42:32 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 13:42:32 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 13:42:32 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:42:34 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:42:36 FINE   Main.AddressBookInterface menu - User Input: list
+2016-11-29 13:42:39 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 13:42:39 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 13:42:39 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:45:26 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:45:26 SEVERE Main.FileManager readFile - Error when trying to read from file.
+2016-11-29 13:45:31 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:45:41 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:45:44 FINE   Main.AddressBookInterface menu - User Input: list
+2016-11-29 13:45:46 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:45:49 FINE   Main.AddressBookInterface menu - User Input: add
+2016-11-29 13:45:50 FINE   Main.AddressBookInterface menu - User Input: list
+2016-11-29 13:45:51 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:45:56 FINE   Main.AddressBookInterface menu - User Input: search
+2016-11-29 13:45:56 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:46:01 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 13:46:01 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 13:46:01 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:52:45 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:52:47 FINE   Main.AddressBookInterface menu - User Input: delete
+2016-11-29 13:52:50 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:52:55 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:00 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:05 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:10 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:15 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:20 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:25 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:30 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:35 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:40 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:45 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:50 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:53:55 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:00 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:05 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:10 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:15 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:20 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:25 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:30 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:35 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:40 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:45 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:50 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:54:55 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:00 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:05 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:10 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:15 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:20 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:25 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:30 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:35 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:40 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:45 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:50 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:55 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:55:57 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 13:55:57 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 13:55:57 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 14:00:05 INFO   Main.Program AddressBook - Starting program
+2016-11-29 14:00:07 FINE   Main.AddressBookInterface menu - User Input: help
+2016-11-29 14:00:10 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 14:00:15 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 14:00:17 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 14:00:17 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 14:00:17 INFO   Main.FileManager writeFile - Saving to file.
