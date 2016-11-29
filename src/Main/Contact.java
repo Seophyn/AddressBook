@@ -1,3 +1,5 @@
+package Main;
+
 import java.io.Serializable;
 
 public class Contact implements Serializable, Comparable<Contact>{
@@ -36,6 +38,6 @@ public class Contact implements Serializable, Comparable<Contact>{
 
     @Override
     public int compareTo(Contact contact) {
-        return this.getFirstName().compareTo(contact.getFirstName());
+        return this.getFirstName().compareToIgnoreCase((contact.getFirstName()));
     }
 }

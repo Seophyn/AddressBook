@@ -1,8 +1,12 @@
+package Main;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.UUID;
+import java.util.logging.Logger;
 
-public class AdressBookCommandHandler {
+public class CommandHandler {
+    private Logger logger = Logger.getLogger(CommandHandler.class.getName());
     private Register register = new Register();
     private FileManager filemanager = new FileManager();
 
@@ -41,6 +45,8 @@ public class AdressBookCommandHandler {
 
     public void exitProgram() {
         System.out.println("Exiting program.");
+        logger.info("Exiting program");
+        writeRegister();
         System.exit(0);
     }
 

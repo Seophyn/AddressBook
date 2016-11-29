@@ -1,28 +1,11 @@
-Nov 26, 2016 1:44:44 PM AdressBookInterface menu
-INFO: Starting program
-Nov 26, 2016 1:44:47 PM AdressBookInterface menu
-FINE: Userinput: add
-Nov 26, 2016 1:44:49 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:44:54 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:44:59 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:45:04 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:45:09 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:45:14 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:45:19 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:45:21 PM AdressBookInterface menu
-FINE: Userinput: list
-Nov 26, 2016 1:45:24 PM FileManager writeFile
-INFO: Saving to file.
-Nov 26, 2016 1:45:24 PM AdressBookInterface menu
-FINE: Userinput: quit
-Nov 26, 2016 1:45:24 PM AdressBookInterface menu
-INFO: Exiting Program
-Nov 26, 2016 1:45:24 PM FileManager writeFile
-INFO: Saving to file.
+2016-11-29 13:18:38 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:18:40 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 13:18:40 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 13:18:40 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:20:29 INFO   Main.Program AddressBook - Starting program
+2016-11-29 13:20:33 FINE   Main.AddressBookInterface menu - User Input: add
+2016-11-29 13:20:34 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-29 13:20:35 FINE   Main.AddressBookInterface menu - User Input: list
+2016-11-29 13:20:37 FINE   Main.AddressBookInterface menu - User Input: quit
+2016-11-29 13:20:37 INFO   Main.CommandHandler exitProgram - Exiting program
+2016-11-29 13:20:37 INFO   Main.FileManager writeFile - Saving to file.

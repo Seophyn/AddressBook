@@ -1,3 +1,5 @@
+package Main;
+
 public class Autosave implements Runnable {
     private Register register;
     private FileManager fileManager = new FileManager();
@@ -12,7 +14,8 @@ public class Autosave implements Runnable {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+                }
+
             fileManager.writeFile(register);
         }
     }

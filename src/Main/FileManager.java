@@ -1,9 +1,12 @@
+package Main;
+
 import java.io.*;
+import java.util.ArrayList;
 import java.util.logging.Logger;
 
 public class FileManager {
     private File file = new File("register");
-    Logger logger = Logger.getLogger(FileManager.class.getName());
+    private Logger logger = Logger.getLogger(FileManager.class.getName());
 
     public Register readFile() {
 
@@ -22,9 +25,8 @@ public class FileManager {
         } else return new Register();
     }
 
-    public void writeFile(Register register) {
-        try {
-            ObjectOutputStream saveTo = new ObjectOutputStream(new FileOutputStream("register"));
+    public synchronized void writeFile(Register register) {
+        try (ObjectOutputStream saveTo = new ObjectOutputStream(new FileOutputStream("register"))){
             saveTo.writeObject(register);
             saveTo.close();
             logger.info("Saving to file.");
