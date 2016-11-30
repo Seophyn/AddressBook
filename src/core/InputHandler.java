@@ -1,11 +1,13 @@
-package Main;
+package core;
 
 //todo Hantera inputs från Main.AddressBookInterface och bestäm action accordingly.
 public class InputHandler {
     private CommandHandler handler;
+    private Register register;
 
-    public InputHandler(CommandHandler handler){
-        this.handler = handler;
+    public InputHandler(Register register){
+        this.register = register;
+        handler = new CommandHandler(register);
     }
 
     void add(String[] userInput) {
@@ -14,14 +16,19 @@ public class InputHandler {
         } else if (userInput.length < 4) {
             System.out.println("Invalid command: Too few arguments.");
         } else {
-            handler.addContact(userInput[1], userInput[2], userInput[3]);
+            register.addContact(userInput[1], userInput[2], userInput[3]);
         }
     }
     void list(String[] userInput) {
         if (!(userInput.length == 1)) {
             System.out.println("Invalid command: List command does not take any arguments.");
         } else {
-            handler.listContacts();
+            if(register.getRegister().size() > 0) {
+                handler.printList(register.listContacts());
+            }
+            else{
+                System.out.println("There are currently no contacts in the address book. ");
+            }
         }
     }
     void search(String[] userInput) {
@@ -30,7 +37,10 @@ public class InputHandler {
         } else if (userInput.length < 2) {
             System.out.println("Invalid command: Too few arguments.");
         } else {
-            handler.search(userInput[1]);
+            if(register.getRegister().size() > 0) {
+                handler.printSearchList(register.search(userInput[1]));
+            }
+
         }
     }
     void delete(String[] userInput) {
@@ -39,7 +49,7 @@ public class InputHandler {
         } else if (userInput.length < 2) {
             System.out.println("Invalid command: Too few arguments.");
         } else {
-            handler.deleteContact(userInput[1]);
+            register.deleteContact(userInput[1]);
         }
     }
     void help(){

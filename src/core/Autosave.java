@@ -1,4 +1,4 @@
-package Main;
+package core;
 
 public class Autosave implements Runnable {
     private Register register;
@@ -16,7 +16,7 @@ public class Autosave implements Runnable {
                 e.printStackTrace();
                 }
 
-            fileManager.writeFile(register);
+            fileManager.writeFile(register.getRegister());
         }
     }
 }
