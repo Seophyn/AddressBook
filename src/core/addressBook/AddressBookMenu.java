@@ -1,19 +1,19 @@
-package core;
+package core.addressBook;
 
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class AddressBookInterface {
-    private Logger logger = Logger.getLogger(AddressBookInterface.class.getName());
+    public class AddressBookMenu {
+    private Logger logger = Logger.getLogger(AddressBookMenu.class.getName());
     private InputHandler handler;
 
-    public AddressBookInterface(InputHandler handler) {
+    public AddressBookMenu(InputHandler handler) {
         this.handler = handler;
     }
 
     public void menu() {
         Scanner choiceScan = new Scanner(System.in);
-        System.out.println("Welcome");
+        System.out.println("Welcome! Type 'help' to show a list of available commands.");
 
         while (true) {
             String[] userInput = choiceScan.nextLine().split(" ");
@@ -30,10 +30,6 @@ public class AddressBookInterface {
                     logger.fine("User Input: " + userInput[0]);
                     handler.list(userInput);
                     break;
-                case "quit":
-                    logger.fine("User Input: " + userInput[0]);
-                    handler.quit();
-                    break;
                 case "delete":
                     logger.fine("User Input: " + userInput[0]);
                     handler.delete(userInput);
@@ -41,6 +37,10 @@ public class AddressBookInterface {
                 case "help":
                     logger.fine("User Input: " + userInput[0]);
                     handler.help();
+                    break;
+                case "quit":
+                    logger.fine("User Input: " + userInput[0]);
+                    handler.quit();
                     break;
                 default:
                     logger.fine("User Input: " + userInput[0]);

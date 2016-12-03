@@ -1,4 +1,7 @@
-package core;
+package core.fileManagement;
+
+import core.addressBook.Contact;
+import core.addressBook.Register;
 
 import java.io.*;
 import java.util.ArrayList;

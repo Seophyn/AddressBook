@@ -1,6 +1,5 @@
-package core;
+package core.addressBook;
 
-//todo Hantera inputs från Main.AddressBookInterface och bestäm action accordingly.
 public class InputHandler {
     private CommandHandler handler;
     private Register register;
@@ -17,6 +16,7 @@ public class InputHandler {
             System.out.println("Invalid command: Too few arguments.");
         } else {
             register.addContact(userInput[1], userInput[2], userInput[3]);
+            handler.printAdd();
         }
     }
     void list(String[] userInput) {
@@ -49,7 +49,7 @@ public class InputHandler {
         } else if (userInput.length < 2) {
             System.out.println("Invalid command: Too few arguments.");
         } else {
-            register.deleteContact(userInput[1]);
+            handler.delete(userInput[1]);
         }
     }
     void help(){

@@ -1,4 +1,11 @@
-package core;//todo "huvud-delen" av programmet som Main.Main skickar till. Hanterar initialization av programmet och skickar sedan vidare till menyn.
+package core;
+
+import core.addressBook.AddressBookMenu;
+import core.addressBook.InputHandler;
+import core.addressBook.Register;
+import core.fileManagement.Autosave;
+import core.fileManagement.FileManager;
+import core.fileManagement.LogSettings;
 
 import java.util.logging.Logger;
 
@@ -6,12 +13,11 @@ public class Program {
     private Logger logger = Logger.getLogger(Program.class.getName());
     private Register register = new Register();
     private InputHandler handler = new InputHandler(register);
-    private AddressBookInterface userInput = new AddressBookInterface(handler);
+    private AddressBookMenu userInput = new AddressBookMenu(handler);
     private FileManager fileManager = new FileManager();
 
     public void AddressBook(){
-        LogSettings logSettings = new LogSettings();
-        logSettings.setupLogging();
+        new LogSettings();
 
         Runnable autosave = new Autosave(register);
         Thread saveThread = new Thread(autosave);

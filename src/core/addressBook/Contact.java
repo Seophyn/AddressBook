@@ -1,4 +1,4 @@
-package core;
+package core.addressBook;
 
 import java.io.Serializable;
 import java.util.UUID;

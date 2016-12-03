@@ -1,105 +1,71 @@
-2016-11-29 13:18:38 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:18:40 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 13:18:40 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 13:18:40 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:20:29 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:20:33 FINE   Main.AddressBookInterface menu - User Input: add
-2016-11-29 13:20:34 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:20:35 FINE   Main.AddressBookInterface menu - User Input: list
-2016-11-29 13:20:37 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 13:20:37 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 13:20:37 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:03 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:41:03 SEVERE Main.FileManager readFile - Error when trying to read from file.
-2016-11-29 13:41:08 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:13 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:18 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:23 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:28 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:33 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:38 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:43 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:48 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:53 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:41:58 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:42:07 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:42:10 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 13:42:10 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 13:42:10 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:42:21 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:42:26 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:42:28 FINE   Main.AddressBookInterface menu - User Input: add
-2016-11-29 13:42:30 FINE   Main.AddressBookInterface menu - User Input: list
-2016-11-29 13:42:31 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:42:32 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 13:42:32 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 13:42:32 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:42:34 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:42:36 FINE   Main.AddressBookInterface menu - User Input: list
-2016-11-29 13:42:39 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 13:42:39 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 13:42:39 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:45:26 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:45:26 SEVERE Main.FileManager readFile - Error when trying to read from file.
-2016-11-29 13:45:31 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:45:41 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:45:44 FINE   Main.AddressBookInterface menu - User Input: list
-2016-11-29 13:45:46 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:45:49 FINE   Main.AddressBookInterface menu - User Input: add
-2016-11-29 13:45:50 FINE   Main.AddressBookInterface menu - User Input: list
-2016-11-29 13:45:51 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:45:56 FINE   Main.AddressBookInterface menu - User Input: search
-2016-11-29 13:45:56 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:46:01 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 13:46:01 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 13:46:01 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:52:45 INFO   Main.Program AddressBook - Starting program
-2016-11-29 13:52:47 FINE   Main.AddressBookInterface menu - User Input: delete
-2016-11-29 13:52:50 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:52:55 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:00 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:05 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:10 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:15 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:20 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:25 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:30 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:35 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:40 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:45 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:50 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:53:55 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:00 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:05 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:10 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:15 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:20 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:25 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:30 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:35 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:40 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:45 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:50 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:54:55 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:00 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:05 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:10 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:15 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:20 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:25 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:30 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:35 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:40 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:45 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:50 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:55 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 13:55:57 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 13:55:57 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 13:55:57 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 14:00:05 INFO   Main.Program AddressBook - Starting program
-2016-11-29 14:00:07 FINE   Main.AddressBookInterface menu - User Input: help
-2016-11-29 14:00:10 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 14:00:15 INFO   Main.FileManager writeFile - Saving to file.
-2016-11-29 14:00:17 FINE   Main.AddressBookInterface menu - User Input: quit
-2016-11-29 14:00:17 INFO   Main.CommandHandler exitProgram - Exiting program
-2016-11-29 14:00:17 INFO   Main.FileManager writeFile - Saving to file.
+2016-11-30 17:35:26 INFO   core.Program AddressBook - Starting program
+2016-11-30 17:35:29 FINE   core.AddressBook.AddresBookMenu menu - User Input: quit
+2016-11-30 17:35:29 INFO   core.AddressBook.CommandHandler exitProgram - Exiting program
+2016-11-30 17:35:29 INFO   core.FileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:35:49 INFO   core.Program AddressBook - Starting program
+2016-11-30 17:35:51 FINE   core.addressBook.AddresBookMenu menu - User Input: list
+2016-11-30 17:35:53 FINE   core.addressBook.AddresBookMenu menu - User Input: search
+2016-11-30 17:35:54 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:35:55 FINE   core.addressBook.AddresBookMenu menu - User Input: add
+2016-11-30 17:35:57 FINE   core.addressBook.AddresBookMenu menu - User Input: delete
+2016-11-30 17:35:58 FINE   core.addressBook.AddresBookMenu menu - User Input: help
+2016-11-30 17:35:59 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:04 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:09 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:14 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:17 FINE   core.addressBook.AddresBookMenu menu - User Input: add
+2016-11-30 17:36:19 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:20 FINE   core.addressBook.AddresBookMenu menu - User Input: list
+2016-11-30 17:36:22 FINE   core.addressBook.AddresBookMenu menu - User Input: search
+2016-11-30 17:36:24 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:29 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:31 FINE   core.addressBook.AddresBookMenu menu - User Input: delete
+2016-11-30 17:36:34 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:36:36 FINE   core.addressBook.AddresBookMenu menu - User Input: list
+2016-11-30 17:36:38 FINE   core.addressBook.AddresBookMenu menu - User Input: quit
+2016-11-30 17:36:38 INFO   core.addressBook.CommandHandler exitProgram - Exiting program
+2016-11-30 17:36:38 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:37:33 INFO   core.Program AddressBook - Starting program
+2016-11-30 17:37:35 FINE   core.addressBook.AddressBookMenu menu - User Input: list
+2016-11-30 17:37:36 FINE   core.addressBook.AddressBookMenu menu - User Input: search
+2016-11-30 17:37:38 FINE   core.addressBook.AddressBookMenu menu - User Input: add
+2016-11-30 17:37:38 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:37:40 FINE   core.addressBook.AddressBookMenu menu - User Input: list
+2016-11-30 17:37:43 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:37:46 FINE   core.addressBook.AddressBookMenu menu - User Input: delete
+2016-11-30 17:37:48 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:37:53 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:37:58 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:03 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:08 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:13 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:18 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:23 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:28 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:33 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:38 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:43 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:48 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:38:51 FINE   core.addressBook.AddressBookMenu menu - User Input: quit
+2016-11-30 17:38:51 INFO   core.addressBook.CommandHandler exitProgram - Exiting program
+2016-11-30 17:38:51 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:15 INFO   core.Program AddressBook - Starting program
+2016-11-30 17:44:16 FINE   core.addressBook.AddressBookMenu menu - User Input: list
+2016-11-30 17:44:20 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:25 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:30 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:30 FINE   core.addressBook.AddressBookMenu menu - User Input: add
+2016-11-30 17:44:35 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:40 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:41 FINE   core.addressBook.AddressBookMenu menu - User Input: add
+2016-11-30 17:44:45 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:48 FINE   core.addressBook.AddressBookMenu menu - User Input: add
+2016-11-30 17:44:50 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:50 FINE   core.addressBook.AddressBookMenu menu - User Input: list
+2016-11-30 17:44:55 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:44:56 FINE   core.addressBook.AddressBookMenu menu - User Input: delete
+2016-11-30 17:44:58 FINE   core.addressBook.AddressBookMenu menu - User Input: list
+2016-11-30 17:45:00 INFO   core.fileManagement.FileManager writeFile - Saving to file.
+2016-11-30 17:45:00 FINE   core.addressBook.AddressBookMenu menu - User Input: quit
+2016-11-30 17:45:00 INFO   core.addressBook.CommandHandler exitProgram - Exiting program
+2016-11-30 17:45:00 INFO   core.fileManagement.FileManager writeFile - Saving to file.

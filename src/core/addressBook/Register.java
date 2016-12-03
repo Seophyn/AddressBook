@@ -1,4 +1,4 @@
-package core;
+package core.addressBook;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -19,22 +19,10 @@ public class Register implements Serializable {
     public void addContact(String firstName, String surName, String mail) {
         Contact contact = new Contact(firstName, surName, mail);
         getRegister().add(contact);
-        System.out.println("Contact added");
     }
 
-    public void deleteContact(String ID) {
-        boolean deletedContact = false;
-        for (int i = 0; i < register.size(); i++) {
-            if (register.get(i).getID().equals(ID)) {
-                System.out.println(register.get(i).getFirstName() + " " + register.get(i).getSurName() +
-                        " removed from register.");
-                register.remove(i);
-                deletedContact = true;
-            }
-            }
-        if (!deletedContact) {
-            System.out.println("No contact found with that ID");
-        }
+    public void deleteContact(Contact contact) {
+        register.remove(contact);
     }
 
     public ArrayList<Contact> search(String searchTerm) {
