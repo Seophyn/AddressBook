@@ -3,7 +3,7 @@ package core.addressBook;
 import java.io.Serializable;
 import java.util.UUID;
 
-public class Contact implements Serializable, Comparable<Contact>{
+public class Contact implements Serializable, Comparable<Contact> {
     private String firstName;
     private String surName;
     private String mail;
@@ -14,6 +14,13 @@ public class Contact implements Serializable, Comparable<Contact>{
         this.surName = surName;
         this.mail = mail;
         this.ID = UUID.randomUUID().toString();
+    }
+
+    public Contact(String ID, String firstname, String surName, String mail) {
+        this.firstName = firstname;
+        this.surName = surName;
+        this.mail = mail;
+        this.ID = ID;
     }
 
     public String getFirstName() {
@@ -32,12 +39,7 @@ public class Contact implements Serializable, Comparable<Contact>{
         return ID;
     }
 
-    /*@Override
-    public String toString() {
-        return String.format("ID: %s\nFirst Name: %s\nSurname: %s\nEmail: %s", this.getID(), this.getFirstName(), this.getSurName(), this.getMail() + "\n");
-    }*/
-
-    public String printContact(){
+    public String printContact() {
         return String.format("ID: %s\nFirst Name: %s\nSurname: %s\nEmail: %s", this.getID(), this.getFirstName(), this.getSurName(), this.getMail() + "\n");
     }
 
